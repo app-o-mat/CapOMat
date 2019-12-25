@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GameOMatKit",
+        "repositoryURL": "/Users/lou/project/GameOMatKit",
+        "state": {
+          "branch": "master",
+          "revision": "33a0171657705175eff0a5acfad45c4be27e7975",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

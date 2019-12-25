@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8FA6DA23AFA53300C8AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */; };
+		9A8FA6E023AFA53300C8AD8D /* MapPongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */; };
+		9A8FA6E223AFA53300C8AD8D /* MapPongSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */; };
+		9A8FA6E523AFA53300C8AD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E323AFA53300C8AD8D /* Main.storyboard */; };
+		9A8FA6E723AFA53600C8AD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */; };
+		9A8FA6EA23AFA53600C8AD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */; };
+		9A8FA6F523AFA53600C8AD8D /* MapOMatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */; };
+		9A8FA70323AFA66900C8AD8D /* GameOMatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9A8FA70223AFA66900C8AD8D /* GameOMatKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8FA6F123AFA53600C8AD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8FA6CE23AFA53300C8AD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8FA6D523AFA53300C8AD8D;
+			remoteInfo = MapOMat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A8FA6D623AFA53300C8AD8D /* MapOMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPongScene.swift; sourceTree = "<group>"; };
+		9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPongSceneViewController.swift; sourceTree = "<group>"; };
+		9A8FA6E423AFA53300C8AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A8FA6E923AFA53600C8AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A8FA6EB23AFA53600C8AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapOMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOMatTests.swift; sourceTree = "<group>"; };
+		9A8FA6F623AFA53600C8AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8FA6D323AFA53300C8AD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA70323AFA66900C8AD8D /* GameOMatKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8FA6ED23AFA53600C8AD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8FA6CD23AFA53300C8AD8D = {
+			isa = PBXGroup;
+			children = (
+				9A8FA6D823AFA53300C8AD8D /* MapOMat */,
+				9A8FA6F323AFA53600C8AD8D /* MapOMatTests */,
+				9A8FA6D723AFA53300C8AD8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8FA6D723AFA53300C8AD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FA6D623AFA53300C8AD8D /* MapOMat.app */,
+				9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8FA6D823AFA53300C8AD8D /* MapOMat */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FA6FF23AFA56F00C8AD8D /* MapPong */,
+				9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */,
+				9A8FA6E323AFA53300C8AD8D /* Main.storyboard */,
+				9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */,
+				9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */,
+				9A8FA6EB23AFA53600C8AD8D /* Info.plist */,
+			);
+			path = MapOMat;
+			sourceTree = "<group>";
+		};
+		9A8FA6F323AFA53600C8AD8D /* MapOMatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */,
+				9A8FA6F623AFA53600C8AD8D /* Info.plist */,
+			);
+			path = MapOMatTests;
+			sourceTree = "<group>";
+		};
+		9A8FA6FF23AFA56F00C8AD8D /* MapPong */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FA70023AFA57B00C8AD8D /* View */,
+			);
+			path = MapPong;
+			sourceTree = "<group>";
+		};
+		9A8FA70023AFA57B00C8AD8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */,
+				9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8FA6D523AFA53300C8AD8D /* MapOMat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMat" */;
+			buildPhases = (
+				9A8FA6D223AFA53300C8AD8D /* Sources */,
+				9A8FA6D323AFA53300C8AD8D /* Frameworks */,
+				9A8FA6D423AFA53300C8AD8D /* Resources */,
+				9A8FA70423AFAAEC00C8AD8D /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapOMat;
+			packageProductDependencies = (
+				9A8FA70223AFA66900C8AD8D /* GameOMatKit */,
+			);
+			productName = MapOMat;
+			productReference = 9A8FA6D623AFA53300C8AD8D /* MapOMat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8FA6EF23AFA53600C8AD8D /* MapOMatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMatTests" */;
+			buildPhases = (
+				9A8FA6EC23AFA53600C8AD8D /* Sources */,
+				9A8FA6ED23AFA53600C8AD8D /* Frameworks */,
+				9A8FA6EE23AFA53600C8AD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8FA6F223AFA53600C8AD8D /* PBXTargetDependency */,
+			);
+			name = MapOMatTests;
+			productName = MapOMatTests;
+			productReference = 9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8FA6CE23AFA53300C8AD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "App-o-Mat";
+				TargetAttributes = {
+					9A8FA6D523AFA53300C8AD8D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					9A8FA6EF23AFA53600C8AD8D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9A8FA6D523AFA53300C8AD8D;
+					};
+				};
+			};
+			buildConfigurationList = 9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "MapOMat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8FA6CD23AFA53300C8AD8D;
+			packageReferences = (
+				9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */,
+			);
+			productRefGroup = 9A8FA6D723AFA53300C8AD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8FA6D523AFA53300C8AD8D /* MapOMat */,
+				9A8FA6EF23AFA53600C8AD8D /* MapOMatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8FA6D423AFA53300C8AD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA6E523AFA53300C8AD8D /* Main.storyboard in Resources */,
+				9A8FA6E723AFA53600C8AD8D /* Assets.xcassets in Resources */,
+				9A8FA6EA23AFA53600C8AD8D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8FA6EE23AFA53600C8AD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A8FA70423AFAAEC00C8AD8D /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8FA6D223AFA53300C8AD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA6E023AFA53300C8AD8D /* MapPongScene.swift in Sources */,
+				9A8FA6E223AFA53300C8AD8D /* MapPongSceneViewController.swift in Sources */,
+				9A8FA6DA23AFA53300C8AD8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8FA6EC23AFA53600C8AD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FA6F523AFA53600C8AD8D /* MapOMatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8FA6F223AFA53600C8AD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8FA6D523AFA53300C8AD8D /* MapOMat */;
+			targetProxy = 9A8FA6F123AFA53600C8AD8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8FA6E323AFA53300C8AD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8FA6E423AFA53300C8AD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8FA6E923AFA53600C8AD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8FA6F723AFA53600C8AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A8FA6F823AFA53600C8AD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A8FA6FA23AFA53600C8AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85H8KB76TX;
+				INFOPLIST_FILE = MapOMat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A8FA6FB23AFA53600C8AD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85H8KB76TX;
+				INFOPLIST_FILE = MapOMat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A8FA6FD23AFA53600C8AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85H8KB76TX;
+				INFOPLIST_FILE = MapOMatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOMat.app/MapOMat";
+			};
+			name = Debug;
+		};
+		9A8FA6FE23AFA53600C8AD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85H8KB76TX;
+				INFOPLIST_FILE = MapOMatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOMat.app/MapOMat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "MapOMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8FA6F723AFA53600C8AD8D /* Debug */,
+				9A8FA6F823AFA53600C8AD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8FA6FA23AFA53600C8AD8D /* Debug */,
+				9A8FA6FB23AFA53600C8AD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8FA6FD23AFA53600C8AD8D /* Debug */,
+				9A8FA6FE23AFA53600C8AD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/lou/project/GameOMatKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A8FA70223AFA66900C8AD8D /* GameOMatKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */;
+			productName = GameOMatKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A8FA6CE23AFA53300C8AD8D /* Project object */;
+}

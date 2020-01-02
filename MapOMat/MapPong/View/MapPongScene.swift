@@ -23,8 +23,8 @@ class MapPongScene: GameScene {
 
     init(size: CGSize) {
        super.init(size: size, gameLogics:
-       [PongOnePlayer(generator: StateCapitalGenerator()),
-        PongTwoPlayer(generator: StateCapitalGenerator())])
+       [PongOnePlayerLogic(generator: StateCapitalGenerator()),
+        PongTwoPlayerLogic(generator: StateCapitalGenerator())])
    }
 
 }

@@ -1,15 +1,15 @@
 //
-//  MapOMatTests.swift
-//  MapOMatTests
+//  CapOMatTests.swift
+//  CapOMatTests
 //
 //  Created by Louis Franco on 12/22/19.
 //  Copyright © 2019 App-o-Mat. All rights reserved.
 //
 
 import XCTest
-@testable import MapOMat
+@testable import CapOMat
 
-class MapOMatTests: XCTestCase {
+class CapOMatTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

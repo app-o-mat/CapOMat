@@ -10,8 +10,8 @@
 	<false/>
   <key>provisioningProfiles</key>
   <dict>
-    <key>com.app-o-mat.MapOMat</key>
-    <string>MapOMat App Store Profile</string>
+    <key>com.app-o-mat.CapOMat</key>
+    <string>CapOMat App Store Profile</string>
   </dict>
 </dict>
 </plist>

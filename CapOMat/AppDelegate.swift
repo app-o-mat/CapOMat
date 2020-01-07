@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MapOMat
+//  CapOMat
 //
 //  Created by Louis Franco on 12/22/19.
 //  Copyright © 2019 App-o-Mat. All rights reserved.

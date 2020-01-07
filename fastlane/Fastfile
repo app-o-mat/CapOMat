@@ -2,12 +2,12 @@ lane :build_appstore do
   xcversion(version: "11.3")
 
   gym(
-    scheme: "MapOMat",
+    scheme: "CapOMat",
     configuration: "Release",
     output_directory: "./build/app-store",
     clean: true,
     export_options: "./config/AppStoreConfiguration.plist",
-    output_name: "Map-o-Mat.ipa"
+    output_name: "Cap-o-Mat.ipa"
   )
 
 end
@@ -16,12 +16,12 @@ lane :build_adhoc do
   xcversion(version: "11.3")
 
   gym(
-    scheme: "MapOMat",
+    scheme: "CapOMat",
     configuration: "Release",
     output_directory: "./build/ad-hoc",
     clean: true,
     export_options: "./config/AdHocConfiguration.plist",
-    output_name: "Map-o-Mat.ipa"
+    output_name: "Cap-o-Mat.ipa"
   )
 
 end
@@ -29,14 +29,14 @@ end
 lane :unit_tests do
   xcversion(version: "11.3")
 
-  run_tests(scheme: "MapOMat")
+  run_tests(scheme: "CapOMat")
 
 end
 
 lane :upload_binary do
   upload_to_testflight(
     username: "lfranco@greenwave-solutions.com",
-    ipa: "./build/app-store/Map-o-Mat.ipa",
+    ipa: "./build/app-store/Cap-o-Mat.ipa",
     team_id: "159005"
   )
 

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9A8FA6DA23AFA53300C8AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */; };
-		9A8FA6E023AFA53300C8AD8D /* MapPongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */; };
-		9A8FA6E223AFA53300C8AD8D /* MapPongSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */; };
+		9A8FA6E023AFA53300C8AD8D /* CapPongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6DF23AFA53300C8AD8D /* CapPongScene.swift */; };
+		9A8FA6E223AFA53300C8AD8D /* CapPongSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E123AFA53300C8AD8D /* CapPongSceneViewController.swift */; };
 		9A8FA6E523AFA53300C8AD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E323AFA53300C8AD8D /* Main.storyboard */; };
 		9A8FA6E723AFA53600C8AD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */; };
 		9A8FA6EA23AFA53600C8AD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */; };
-		9A8FA6F523AFA53600C8AD8D /* MapOMatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */; };
+		9A8FA6F523AFA53600C8AD8D /* CapOMatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6F423AFA53600C8AD8D /* CapOMatTests.swift */; };
 		9A8FA70323AFA66900C8AD8D /* GameOMatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9A8FA70223AFA66900C8AD8D /* GameOMatKit */; };
 /* End PBXBuildFile section */
 
@@ -23,21 +23,21 @@
 			containerPortal = 9A8FA6CE23AFA53300C8AD8D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A8FA6D523AFA53300C8AD8D;
-			remoteInfo = MapOMat;
+			remoteInfo = CapOMat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A8FA6D623AFA53300C8AD8D /* MapOMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8FA6D623AFA53300C8AD8D /* CapOMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapOMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPongScene.swift; sourceTree = "<group>"; };
-		9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPongSceneViewController.swift; sourceTree = "<group>"; };
+		9A8FA6DF23AFA53300C8AD8D /* CapPongScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapPongScene.swift; sourceTree = "<group>"; };
+		9A8FA6E123AFA53300C8AD8D /* CapPongSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapPongSceneViewController.swift; sourceTree = "<group>"; };
 		9A8FA6E423AFA53300C8AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A8FA6E923AFA53600C8AD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A8FA6EB23AFA53600C8AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapOMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOMatTests.swift; sourceTree = "<group>"; };
+		9A8FA6F023AFA53600C8AD8D /* CapOMatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapOMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8FA6F423AFA53600C8AD8D /* CapOMatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapOMatTests.swift; sourceTree = "<group>"; };
 		9A8FA6F623AFA53600C8AD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +63,8 @@
 		9A8FA6CD23AFA53300C8AD8D = {
 			isa = PBXGroup;
 			children = (
-				9A8FA6D823AFA53300C8AD8D /* MapOMat */,
-				9A8FA6F323AFA53600C8AD8D /* MapOMatTests */,
+				9A8FA6D823AFA53300C8AD8D /* CapOMat */,
+				9A8FA6F323AFA53600C8AD8D /* CapOMatTests */,
 				9A8FA6D723AFA53300C8AD8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,47 +72,47 @@
 		9A8FA6D723AFA53300C8AD8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A8FA6D623AFA53300C8AD8D /* MapOMat.app */,
-				9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */,
+				9A8FA6D623AFA53300C8AD8D /* CapOMat.app */,
+				9A8FA6F023AFA53600C8AD8D /* CapOMatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A8FA6D823AFA53300C8AD8D /* MapOMat */ = {
+		9A8FA6D823AFA53300C8AD8D /* CapOMat */ = {
 			isa = PBXGroup;
 			children = (
-				9A8FA6FF23AFA56F00C8AD8D /* MapPong */,
+				9A8FA6FF23AFA56F00C8AD8D /* CapPong */,
 				9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */,
 				9A8FA6E323AFA53300C8AD8D /* Main.storyboard */,
 				9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */,
 				9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */,
 				9A8FA6EB23AFA53600C8AD8D /* Info.plist */,
 			);
-			path = MapOMat;
+			path = CapOMat;
 			sourceTree = "<group>";
 		};
-		9A8FA6F323AFA53600C8AD8D /* MapOMatTests */ = {
+		9A8FA6F323AFA53600C8AD8D /* CapOMatTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A8FA6F423AFA53600C8AD8D /* MapOMatTests.swift */,
+				9A8FA6F423AFA53600C8AD8D /* CapOMatTests.swift */,
 				9A8FA6F623AFA53600C8AD8D /* Info.plist */,
 			);
-			path = MapOMatTests;
+			path = CapOMatTests;
 			sourceTree = "<group>";
 		};
-		9A8FA6FF23AFA56F00C8AD8D /* MapPong */ = {
+		9A8FA6FF23AFA56F00C8AD8D /* CapPong */ = {
 			isa = PBXGroup;
 			children = (
 				9A8FA70023AFA57B00C8AD8D /* View */,
 			);
-			path = MapPong;
+			path = CapPong;
 			sourceTree = "<group>";
 		};
 		9A8FA70023AFA57B00C8AD8D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A8FA6DF23AFA53300C8AD8D /* MapPongScene.swift */,
-				9A8FA6E123AFA53300C8AD8D /* MapPongSceneViewController.swift */,
+				9A8FA6DF23AFA53300C8AD8D /* CapPongScene.swift */,
+				9A8FA6E123AFA53300C8AD8D /* CapPongSceneViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A8FA6D523AFA53300C8AD8D /* MapOMat */ = {
+		9A8FA6D523AFA53300C8AD8D /* CapOMat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMat" */;
+			buildConfigurationList = 9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "CapOMat" */;
 			buildPhases = (
 				9A8FA6D223AFA53300C8AD8D /* Sources */,
 				9A8FA6D323AFA53300C8AD8D /* Frameworks */,
@@ -133,17 +133,17 @@
 			);
 			dependencies = (
 			);
-			name = MapOMat;
+			name = CapOMat;
 			packageProductDependencies = (
 				9A8FA70223AFA66900C8AD8D /* GameOMatKit */,
 			);
-			productName = MapOMat;
-			productReference = 9A8FA6D623AFA53300C8AD8D /* MapOMat.app */;
+			productName = CapOMat;
+			productReference = 9A8FA6D623AFA53300C8AD8D /* CapOMat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A8FA6EF23AFA53600C8AD8D /* MapOMatTests */ = {
+		9A8FA6EF23AFA53600C8AD8D /* CapOMatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMatTests" */;
+			buildConfigurationList = 9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "CapOMatTests" */;
 			buildPhases = (
 				9A8FA6EC23AFA53600C8AD8D /* Sources */,
 				9A8FA6ED23AFA53600C8AD8D /* Frameworks */,
@@ -154,9 +154,9 @@
 			dependencies = (
 				9A8FA6F223AFA53600C8AD8D /* PBXTargetDependency */,
 			);
-			name = MapOMatTests;
-			productName = MapOMatTests;
-			productReference = 9A8FA6F023AFA53600C8AD8D /* MapOMatTests.xctest */;
+			name = CapOMatTests;
+			productName = CapOMatTests;
+			productReference = 9A8FA6F023AFA53600C8AD8D /* CapOMatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "MapOMat" */;
+			buildConfigurationList = 9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "CapOMat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A8FA6D523AFA53300C8AD8D /* MapOMat */,
-				9A8FA6EF23AFA53600C8AD8D /* MapOMatTests */,
+				9A8FA6D523AFA53300C8AD8D /* CapOMat */,
+				9A8FA6EF23AFA53600C8AD8D /* CapOMatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,8 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8FA6E023AFA53300C8AD8D /* MapPongScene.swift in Sources */,
-				9A8FA6E223AFA53300C8AD8D /* MapPongSceneViewController.swift in Sources */,
+				9A8FA6E023AFA53300C8AD8D /* CapPongScene.swift in Sources */,
+				9A8FA6E223AFA53300C8AD8D /* CapPongSceneViewController.swift in Sources */,
 				9A8FA6DA23AFA53300C8AD8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8FA6F523AFA53600C8AD8D /* MapOMatTests.swift in Sources */,
+				9A8FA6F523AFA53600C8AD8D /* CapOMatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 /* Begin PBXTargetDependency section */
 		9A8FA6F223AFA53600C8AD8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A8FA6D523AFA53300C8AD8D /* MapOMat */;
+			target = 9A8FA6D523AFA53300C8AD8D /* CapOMat */;
 			targetProxy = 9A8FA6F123AFA53600C8AD8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,12 +410,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85H8KB76TX;
-				INFOPLIST_FILE = MapOMat/Info.plist;
+				INFOPLIST_FILE = CapOMat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.CapOMat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,12 +428,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85H8KB76TX;
-				INFOPLIST_FILE = MapOMat/Info.plist;
+				INFOPLIST_FILE = CapOMat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.CapOMat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,18 +447,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85H8KB76TX;
-				INFOPLIST_FILE = MapOMatTests/Info.plist;
+				INFOPLIST_FILE = CapOMatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMatTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.CapOMatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOMat.app/MapOMat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapOMat.app/CapOMat";
 			};
 			name = Debug;
 		};
@@ -469,25 +469,25 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85H8KB76TX;
-				INFOPLIST_FILE = MapOMatTests/Info.plist;
+				INFOPLIST_FILE = CapOMatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.MapOMatTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-o-mat.CapOMatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOMat.app/MapOMat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapOMat.app/CapOMat";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "MapOMat" */ = {
+		9A8FA6D123AFA53300C8AD8D /* Build configuration list for PBXProject "CapOMat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A8FA6F723AFA53600C8AD8D /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMat" */ = {
+		9A8FA6F923AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "CapOMat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A8FA6FA23AFA53600C8AD8D /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "MapOMatTests" */ = {
+		9A8FA6FC23AFA53600C8AD8D /* Build configuration list for PBXNativeTarget "CapOMatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A8FA6FD23AFA53600C8AD8D /* Debug */,

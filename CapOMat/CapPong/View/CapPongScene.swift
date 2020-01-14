@@ -115,7 +115,7 @@ class CapitalToStateGenerator: ProblemGenerator {
 class CapPongScene: GameScene {
 
     init(size: CGSize) {
-        let style = PongStyle(problemFontSize: 30, numButtonLines: 2)
+        let style = PongStyle(problemFontSize: 30, buttonFontSize: 20, numButtonLines: 2)
         super.init(size: size, gameLogics:
             [PongOnePlayerLogic(generator: CapitalToStateGenerator(), style: style),
              PongTwoPlayerLogic(generator: CapitalToStateGenerator(), style: style)])

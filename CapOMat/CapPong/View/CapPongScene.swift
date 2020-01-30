@@ -10,7 +10,7 @@ import SpriteKit
 import GameplayKit
 import GameOMatKit
 
-class StateCapitalGenerator: ProblemGenerator {
+class StateToCapitalGenerator: ProblemGenerator {
     let maxAnswerLength: Int
 
     static let data = [
@@ -68,13 +68,13 @@ class StateCapitalGenerator: ProblemGenerator {
 
     init() {
         // Find the longest answer
-        self.maxAnswerLength = StateCapitalGenerator.data.reduce(0) { curMax, stateInfo in
+        self.maxAnswerLength = StateToCapitalGenerator.data.reduce(0) { curMax, stateInfo in
             ([stateInfo.1.0] + stateInfo.1.1).reduce(curMax) { max($0, $1.count) }
         }
     }
 
     func getNextProblem() -> Problem {
-        let pData = StateCapitalGenerator.data.randomElement()!
+        let pData = StateToCapitalGenerator.data.randomElement()!
         return Problem(question: pData.0,
                        answer: pData.1.0,
                        wrongAnswers: Set<String>(pData.1.1))
@@ -155,13 +155,99 @@ class CapitalToStateGenerator: ProblemGenerator {
 
 }
 
+enum CapGame: String, CaseIterable {
+    case state
+    case capital
+
+    public func generator() -> ProblemGenerator {
+        switch self {
+        case .state:
+            return StateToCapitalGenerator()
+        case .capital:
+            return CapitalToStateGenerator()
+        }
+    }
+
+    public static func at(index: Int) -> CapGame {
+        return CapGame.allCases[index]
+    }
+
+    public static func named(name: String?) -> CapGame? {
+        CapGame.allCases.first { $0.rawValue == name }
+    }
+
+    public func index() -> Int {
+        return CapGame.allCases.firstIndex(of: self) ?? 0
+    }
+}
+
+enum CapSettingKey {
+    static let currentGameIndex = "cap-pong.settingKey.currentGameIndex"
+}
+
 class CapPongScene: GameScene {
 
+    var gameButtons = [ColorButtonNode]()
+    var currentGame: CapGame = CapGame.state {
+        didSet {
+            didSetCurrentGame()
+        }
+    }
+
     init(size: CGSize) {
-        let style = PongStyle(problemFontSize: 30, buttonFontSize: 20, numButtonLines: 2)
+        let style = PongStyle(problemFontSize: 30, buttonFontSize: 18, numButtonLines: 2)
         super.init(size: size, gameLogics:
-            [PongOnePlayerLogic(generator: CapitalToStateGenerator(), style: style),
-             PongTwoPlayerLogic(generator: CapitalToStateGenerator(), style: style)])
+            [PongOnePlayerLogic(generator: StateToCapitalGenerator(), style: style),
+             PongTwoPlayerLogic(generator: StateToCapitalGenerator(), style: style)])
+    }
+
+    private func didSetCurrentGame() {
+        UserDefaults.standard.set(currentGame.index(), forKey: CapSettingKey.currentGameIndex)
+        resetGameButtons()
+        self.gameLogic.generator = self.currentGame.generator()
+    }
+
+    override func addWaitingToStartButtons() {
+        super.addWaitingToStartButtons()
+        addGameButtons()
+    }
+
+    override func removeControlButtons() {
+        super.removeControlButtons()
+        removeGameButtons()
+    }
+
+    func addGameButtons() {
+        for (i, game) in CapGame.allCases.enumerated() {
+            let pos = super.buttonPosition(xGridOffset: -0.5 + CGFloat(i), yGridOffset: 1.5)
+            self.gameButtons.append(
+                addGameButton(gameName: game.rawValue, position: pos, on: currentGame == game))
+        }
+    }
+
+    func resetGameButtons() {
+        removeGameButtons()
+        addGameButtons()
+    }
+
+    func removeGameButtons() {
+        self.gameButtons.forEach { $0.removeFromParent() }
+        self.gameButtons = []
+    }
+
+    func addGameButton(gameName: String, position: CGPoint, on: Bool) -> ColorButtonNode {
+        let button = ColorButtonNode(
+            color: AppColor.imageButtonBackground,
+            size: Style.smallButtonSize)
+        addChild(button)
+        button.texture = SKTexture(imageNamed: "\(gameName)-button-\(on ? "on" : "off")")
+        button.position = position
+        button.name = gameName
+        button.onTap = { [weak self] button in
+            guard let sself = self else { return }
+            sself.currentGame = CapGame.named(name: button.name) ?? CapGame.state
+        }
+        return button
     }
 
 }

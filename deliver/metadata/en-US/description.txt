@@ -1,0 +1,10 @@
+Cap-o-Mat is an iOS game that helps you practice US State Capitals.
+
+Cap-o-Mat is like Ping Pong, except instead of a ball, you will have to hit back by knowing your state capitals.
+
+Features:
+
+* Play in one or two player mode
+* Practice addition, subtraction, multiplication, or division
+* Change the background color
+* Pause and resume

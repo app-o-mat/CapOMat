@@ -39,5 +39,16 @@ lane :upload_binary do
     ipa: "./build/app-store/Cap-o-Mat.ipa",
     team_id: "159005"
   )
+end
 
+lane :upload_metadata do
+  deliver(
+    app_identifier: "com.app-o-mat.CapOMat",
+    username: "lfranco@greenwave-solutions.com",
+    team_id: "159005",
+    force: true,
+    skip_screenshots: true,
+    skip_binary_upload: true,
+    metadata_path: "./deliver/metadata"
+  )
 end

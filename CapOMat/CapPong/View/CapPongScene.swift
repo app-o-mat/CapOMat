@@ -219,7 +219,7 @@ class CapPongScene: GameScene {
 
     func addGameButtons() {
         for (i, game) in CapGame.allCases.enumerated() {
-            let pos = super.buttonPosition(xGridOffset: -0.5 + CGFloat(i), yGridOffset: 1.5)
+            let pos = super.buttonPosition(xGridOffset: -0.5 + CGFloat(i), yGridOffset: -1.0)
             self.gameButtons.append(
                 addGameButton(gameName: game.rawValue, position: pos, on: currentGame == game))
         }
@@ -242,6 +242,7 @@ class CapPongScene: GameScene {
         addChild(button)
         button.texture = SKTexture(imageNamed: "\(gameName)-button-\(on ? "on" : "off")")
         button.position = position
+        button.zPosition = Style.buttonZPosition
         button.name = gameName
         button.onTap = { [weak self] button in
             guard let sself = self else { return }

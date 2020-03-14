@@ -195,10 +195,18 @@ class CapPongScene: GameScene {
     }
 
     init(size: CGSize) {
+        let gameIndex = UserDefaults.standard.integer(forKey: CapSettingKey.currentGameIndex)
+        self.currentGame = CapGame.at(index: gameIndex)
+
         let style = PongStyle(problemFontSize: 30, buttonFontSize: 18, numButtonLines: 2)
         super.init(size: size, gameLogics:
             [PongOnePlayerLogic(generator: StateToCapitalGenerator(), style: style),
              PongTwoPlayerLogic(generator: StateToCapitalGenerator(), style: style)])
+    }
+
+    override func didSetGameLogic() {
+        super.didSetGameLogic()
+        self.gameLogic.generator = self.currentGame.generator()
     }
 
     private func didSetCurrentGame() {

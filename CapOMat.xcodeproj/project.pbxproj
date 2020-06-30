@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1152DB24AB83D600B395A2 /* GameOMatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9A1152DA24AB83D600B395A2 /* GameOMatKit */; };
 		9A8FA6DA23AFA53300C8AD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6D923AFA53300C8AD8D /* AppDelegate.swift */; };
 		9A8FA6E023AFA53300C8AD8D /* CapPongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6DF23AFA53300C8AD8D /* CapPongScene.swift */; };
 		9A8FA6E223AFA53300C8AD8D /* CapPongSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E123AFA53300C8AD8D /* CapPongSceneViewController.swift */; };
@@ -14,7 +15,6 @@
 		9A8FA6E723AFA53600C8AD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E623AFA53600C8AD8D /* Assets.xcassets */; };
 		9A8FA6EA23AFA53600C8AD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8FA6E823AFA53600C8AD8D /* LaunchScreen.storyboard */; };
 		9A8FA6F523AFA53600C8AD8D /* CapOMatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA6F423AFA53600C8AD8D /* CapOMatTests.swift */; };
-		9A8FA70323AFA66900C8AD8D /* GameOMatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9A8FA70223AFA66900C8AD8D /* GameOMatKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8FA70323AFA66900C8AD8D /* GameOMatKit in Frameworks */,
+				9A1152DB24AB83D600B395A2 /* GameOMatKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			);
 			name = CapOMat;
 			packageProductDependencies = (
-				9A8FA70223AFA66900C8AD8D /* GameOMatKit */,
+				9A1152DA24AB83D600B395A2 /* GameOMatKit */,
 			);
 			productName = CapOMat;
 			productReference = 9A8FA6D623AFA53300C8AD8D /* CapOMat.app */;
@@ -188,7 +188,7 @@
 			);
 			mainGroup = 9A8FA6CD23AFA53300C8AD8D;
 			packageReferences = (
-				9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */,
+				9A1152D924AB83D600B395A2 /* XCRemoteSwiftPackageReference "GameOMatKit" */,
 			);
 			productRefGroup = 9A8FA6D723AFA53300C8AD8D /* Products */;
 			projectDirPath = "";
@@ -523,20 +523,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */ = {
+		9A1152D924AB83D600B395A2 /* XCRemoteSwiftPackageReference "GameOMatKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/lou/project/GameOMatKit";
+			repositoryURL = "https://github.com/app-o-mat/GameOMatKit";
 			requirement = {
-				branch = master;
+				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9A8FA70223AFA66900C8AD8D /* GameOMatKit */ = {
+		9A1152DA24AB83D600B395A2 /* GameOMatKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A8FA70123AFA66900C8AD8D /* XCRemoteSwiftPackageReference "GameOMatKit" */;
+			package = 9A1152D924AB83D600B395A2 /* XCRemoteSwiftPackageReference "GameOMatKit" */;
 			productName = GameOMatKit;
 		};
 /* End XCSwiftPackageProductDependency section */

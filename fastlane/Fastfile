@@ -1,5 +1,5 @@
 lane :build_appstore do
-  xcversion(version: "11.3.1")
+  xcversion(version: "11.5")
 
   gym(
     scheme: "CapOMat",
@@ -12,22 +12,8 @@ lane :build_appstore do
 
 end
 
-lane :build_adhoc do
-  xcversion(version: "11.3.1")
-
-  gym(
-    scheme: "CapOMat",
-    configuration: "Release",
-    output_directory: "./build/ad-hoc",
-    clean: true,
-    export_options: "./config/AdHocConfiguration.plist",
-    output_name: "Cap-o-Mat.ipa"
-  )
-
-end
-
-lane :unit_tests do
-  xcversion(version: "11.3.1")
+lane :test do
+  xcversion(version: "11.5")
 
   run_tests(scheme: "CapOMat")
 
